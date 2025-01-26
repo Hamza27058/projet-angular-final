@@ -1,10 +1,21 @@
+.body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 370px;
+  background-image: url('https://img.freepik.com/premium-photo/gym-stuff_1034910-20805.jpg');
+  background-size: cover; /* Ensures the image covers the viewport */
+  background-position:0%; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-attachment: fixed; /* Makes the background image fixed during scrolling */
+}
 .login-container {
     max-width: 400px;
-    margin: 50px auto;
+    margin: -200px auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
     text-align: center;
+    background-color: #e2e2e2
   }
   
   input {

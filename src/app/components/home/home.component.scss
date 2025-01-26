@@ -1,0 +1,95 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 200px;
+    background: linear-gradient(to bottom, #e8f5e9, #a5d6a7);
+    color: #2e7d32;
+  }
+  
+  /* Homepage Container */
+  .homepage-container {
+    text-align: center;
+    padding: 30px 15px;
+  }
+  
+  /* Header Section */
+  .header {
+    margin-bottom: 30px;
+  }
+  
+  .header h1 {
+    font-size: 2.8rem;
+    color: #1b5e20;
+    margin-bottom: 10px;
+  }
+  
+  .header .fitcorner-title {
+    color: #43a047;
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+    color: #388e3c;
+    margin-top: 10px;
+  }
+  
+  /* Call-to-Action Buttons */
+  .cta-buttons {
+    margin: 20px 0;
+  }
+  
+  .cta-buttons button {
+    padding: 12px 25px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .btn-login {
+    background-color: #2e7d32;
+    color: white;
+  }
+  
+  .btn-login:hover {
+    background-color: #1b5e20;
+    transform: scale(1.1);
+  }
+  
+  .btn-signup {
+    background-color: #66bb6a;
+    color: white;
+  }
+  
+  .btn-signup:hover {
+    background-color: #43a047;
+    transform: scale(1.1);
+  }
+  
+  /* About Section */
+  .about-section {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .about-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #2e7d32;
+  }
+  
+  .about-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #388e3c;
+  }
+  

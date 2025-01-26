@@ -24,6 +24,18 @@ import { AccessHatsComponent } from './features/access-hats/access-hats.componen
 import { ProteinPowderComponent } from './features/protein-powder/protein-powder.component';
 import { ProteinBarComponent } from './features/protein-bar/protein-bar.component';
 import { SignupComponent } from './components/signup/signup.component';
+import { VitaminesCreatineComponent } from './features/vitamines-creatine/vitamines-creatine.component';
+import { VitaminesBcaaComponent } from './features/vitamines-bcaa/vitamines-bcaa.component';
+import { PreworkCafeineComponent } from './features/prework-cafeine/prework-cafeine.component';
+import { PreworkCarnitineComponent } from './features/prework-carnitine/prework-carnitine.component';
+import { SaladsComponent } from './features/salads/salads.component';
+import { SuperalimentsComponent } from './features/superaliments/superaliments.component';
+import { FootballComponent } from './features/football/football.component';
+import { BasketballComponent } from './features/basketball/basketball.component';
+import { TennisComponent } from './features/tennis/tennis.component';
+import { GymComponent } from './features/gym/gym.component';
+import { HomeComponent } from './components/home/home.component';
+
 
 
 @NgModule({
@@ -47,6 +59,17 @@ import { SignupComponent } from './components/signup/signup.component';
     ProteinBarComponent,
     LoginComponent,
     SignupComponent,
+    VitaminesCreatineComponent,
+    VitaminesBcaaComponent,
+    PreworkCafeineComponent,
+    PreworkCarnitineComponent,
+    SaladsComponent,
+    SuperalimentsComponent,
+    FootballComponent,
+    BasketballComponent,
+    TennisComponent,
+    GymComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
